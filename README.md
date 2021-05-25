@@ -6,7 +6,7 @@
 
 * Tuesday: May 25<br />
     * 11:40 - 13:00
-    * Completed form and resgister button
+    * Completed form and register button
 
 ![progress](./assignment_tglab_progress.jpg)
 
