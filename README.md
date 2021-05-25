@@ -8,3 +8,5 @@
     * 11:40 - 13:00
     * Completed form and resgister button
 
+![progress](./assignment_tglab_progress.jpg)
+
