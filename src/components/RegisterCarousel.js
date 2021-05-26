@@ -1,9 +1,9 @@
-import React from 'react'
-import { Carousel } from 'react-bootstrap'
-import carousel01 from '../images/carousel01.jpg'
-import carousel02 from '../images/carousel02.jpg'
+import React from "react";
+import { Carousel } from "react-bootstrap";
+import carousel01 from "../images/carousel01.jpg";
+import carousel02 from "../images/carousel02.jpg";
 
-function RegistrationCarousel() {
+const RegistrationCarousel = () => {
   return (
     <div>
       <Carousel>
@@ -16,7 +16,7 @@ function RegistrationCarousel() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.{" "}
+              type and scrambled it to make a type specimen book.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -30,7 +30,7 @@ function RegistrationCarousel() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.{" "}
+              type and scrambled it to make a type specimen book.
             </p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -39,4 +39,4 @@ function RegistrationCarousel() {
   );
 }
 
-export default RegistrationCarousel
+export default RegistrationCarousel;
