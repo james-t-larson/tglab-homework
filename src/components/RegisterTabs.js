@@ -6,7 +6,7 @@ const RegistrationTabs = ({ infoItems }) => {
     <div>
       <Tabs className="tabs" defaultActiveKey="rules" id="tab">
         {infoItems.map((item) => (
-          <Tab key={item.title} eventKey={item.title} title={item.title}>
+          <Tab key={item.title.toLowerCase()} eventKey={item.title.toLowerCase()} title={item.title}>
             <p className="tab-content">{item.content}</p>
           </Tab>
         ))}
